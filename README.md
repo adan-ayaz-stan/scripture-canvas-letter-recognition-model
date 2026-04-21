@@ -63,10 +63,6 @@ The user will draw on a canvas provided by `react-konva`. The drawing will be sm
 4.  **Image Extraction:** We will create a new, smaller canvas for each bounding box, and copy the pixel data for that letter into it.
 5.  **Image Data:** The content of each small canvas will be converted to a data URL (base64 encoded image), which can be displayed in an `<img>` tag.
 
-### 4.3. (Simulated) Prediction
-
-For the initial version, we will simulate the backend prediction. A fake prediction (e.g., a random letter or a fixed string) will be displayed below each extracted letter image.
-
 ## 5. Development Roadmap
 
 1.  **Project Setup:** Initialize the React project with Vite and TypeScript, and configure Tailwind CSS.
