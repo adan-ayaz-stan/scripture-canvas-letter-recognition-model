@@ -6,6 +6,19 @@ This document outlines the technical implementation details for the Scripture ap
 
 Scripture is a web application that allows users to draw words on a canvas. The application then separates each letter from the word, processes it, and sends it to a (simulated) backend for character recognition. The predicted word is then displayed to the user.
 
+## 1.1. Visual Samples
+
+The following images capture key stages of the current implementation:
+
+### Input (Pre-Processing)
+
+![Pre-processing canvas input](assets/pre.png)
+
+### Output Sample 1
+
+![Post-processing and prediction sample 1-upper part](assets/post1.png)
+![Post-processing and prediction sample 1-remaining](assets/post2.png)
+
 ## 2. Technology Stack
 
 - **Frontend Framework:** React (with Vite for bundling)
